@@ -40,6 +40,6 @@ app = graph.compile()
 
 result = app.invoke({"message": "Kumar"})
 
-result = result['message']  # Access the message from the result
+resMess = result['message']  # Access the message from the result
 
-print(result)
+print(resMess)
