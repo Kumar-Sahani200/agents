@@ -1,4 +1,4 @@
-from langgraph.graph import StateGraph
+from langgraph.graph import StateGraph #type: ignore
 from typing import Dict, TypedDict
 
 
